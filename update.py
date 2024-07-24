@@ -44,8 +44,8 @@ def main():
                 content += "## 📚 {}\n".format(directory)
             else:
                 content += "### 🚀 {}\n".format(directory)
-                content += "| 번호 | 문제 제목 | 링크 |\n"
-                content += "| ----- | ----- | ----- |\n"
+                content += "| 문제 | 링크 |\n"
+                content += "| ----- | ----- |\n"
             directories.append(directory)
 
         for file in files:
